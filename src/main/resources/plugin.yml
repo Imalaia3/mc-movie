@@ -1,0 +1,19 @@
+name: BadPlugin
+version: '${project.version}'
+main: me.imalaia3.badplugin.BadPlugin
+api-version: 1.19
+authors: [ Imalaia3 ]
+description: Challenge completed
+commands:
+  setcoords:
+    description: Change The X And Y Parameters Of The Map Renderer
+    usage: /<command>
+    aliases: drawpos
+  seturl:
+    description: Sets The URL Of The Map
+    usage: /<command>
+    aliases: urlset
+  tickserver:
+    description: Ticks the video server. It is not meant to be used by players
+  tickframe:
+    description: Ticks Map Frame
