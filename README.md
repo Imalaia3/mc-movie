@@ -13,14 +13,20 @@ This was a very rushed project. Someone challenged me to make a movie in minecra
 - Video Player
 
 # Usage
-Minecraft Player
+Minecraft Player:
 
 1. Run `server.py`.
 2. Then, if no errors appear, run your server with the compiled plugin inside your `plugins` folder.
 3. After that, create a redstone loop with 2 `redstone repeaters` so you can control the timings. Then Chain 2 `command blocks`. The First one must contain the `/tickframe` command and the second one the `/tickserver` command.
 4. Lastly, Get an empty map, start the redstone clock and right click the map. Have fun 👋!
 
-Video Player
+Video Player:
 
-1.Run `server.py`
-2. Run `vid_view.py` and rescale to your needs.
+1.Run `server.py`.
+
+2.Run `vid_view.py` and rescale to your needs.
+
+# Limitations
+- Can't have normal maps
+- You can't have 2 or more players playing at the same time.
+- Video speed is not only limited by minecraft but is also limited by the speed of the server's drive
